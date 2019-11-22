@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Checking Login Functionality of Vtiger Application",
+        "description": "Given: User in Home page of Vtiger Application",
+        "id": "testing-login-to-vtiger-application;checking-login-functionality-of-vtiger-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1161100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Title of the Application Vtiger",
+            "match": {
+              "location": "LoginDetails.title_of_the_Application_Vtiger()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": Enter user name in Edit Box",
+            "match": {
+              "location": "LoginDetails.enter_user_name_in_Edit_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": Enter password in textbox",
+            "match": {
+              "location": "LoginDetails.enter_password_in_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": Click on SignIn Button",
+            "match": {
+              "location": "LoginDetails.click_on_SignIn_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": User in Home page",
+            "match": {
+              "location": "LoginDetails.user_in_Home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Login To Vtiger Application",
+    "description": "",
+    "id": "testing-login-to-vtiger-application",
+    "keyword": "Feature",
+    "uri": "C:/CucumberExamples/CucumerDemo/Feature/LoginVtiger.feature",
+    "tags": []
+  }
+]

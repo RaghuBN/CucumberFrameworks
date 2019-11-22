@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.020272">
+<testcase classname="Testing Login To Vtiger Application" name="Checking Login Functionality of Vtiger Application" time="0.020272">
+<system-out><![CDATA[When : Title of the Application Vtiger......................................passed
+Then : Enter user name in Edit Box..........................................passed
+Then : Enter password in textbox............................................passed
+Then : Click on SignIn Button...............................................passed
+And : User in Home page.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
